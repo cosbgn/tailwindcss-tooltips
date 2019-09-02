@@ -31,3 +31,16 @@ or:
   <span class="tooltip-text bg-yellow-400 border rounded border-orange-500 text-orange-700 -mt-12">Hey There!</span>
 </div>
 ```
+
+# You can also change the position of the tooltip depending on the device using Tailwind's responsive modifiers
+
+```
+<p class='tooltip'>
+<span class='tooltip-text bg-blue-200 p-3 -mt-1 lg:-mt-8 rounded'>Look at this!</span>
+Hover me
+</p>
+```
+
+```
+-mt-1 lg:-mt-8
+```
