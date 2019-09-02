@@ -1,5 +1,5 @@
 # tailwindcss-tooltips
-Very simple css only tooltips for Tailwind css. See the demo at https://jsfiddle.net/xjnw5vdz/
+Very simple css only tooltips for Tailwind css. See the demo at https://jsfiddle.net/xjnw5vdz/1/
 
 # Add in your css file the following:
 
