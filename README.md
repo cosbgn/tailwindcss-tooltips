@@ -48,7 +48,7 @@ or:
 </div>
 ```
 
-### You can also change the position of the tooltip depending on the device using Tailwind's responsive modifiers
+You can also change the position of the tooltip depending on the device using Tailwind's responsive modifiers
 
 For example: `-mt-1 lg:-mt-8`
 
