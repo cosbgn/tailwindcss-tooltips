@@ -1,7 +1,9 @@
 # tailwindcss-tooltips
 Very simple css only tooltips for Tailwind css. See the demo at https://jsfiddle.net/xjnw5vdz/1/
 
-# Add in your css file the following:
+# Edit your CSS:
+
+### Add in your css file the following:
 
 ```
 .tooltip .tooltip-text {
@@ -16,7 +18,7 @@ Very simple css only tooltips for Tailwind css. See the demo at https://jsfiddle
 }
 ```
 
-# If you prefer to use the @apply directive (from Tailwind CSS) you can instead add in your css file:
+### If you prefer to use the @apply directive (from Tailwind CSS) you can instead add in your css file:
 
 ```
 .tooltip .tooltip-text {
@@ -28,15 +30,17 @@ Very simple css only tooltips for Tailwind css. See the demo at https://jsfiddle
 }
 
 ```
+# Use the tooltips
 
-# Use the tooltips like this:
+
+### Use the tooltips like this:
 
 ```
 <p class='tooltip'>
 Hover me <span class='tooltip-text bg-blue-200 p-3 -mt-6 -ml-6 rounded'>Look at this!</span>
 </p>
 ```
-or:
+### or:
 
 ```
 <div class='tooltip m-10 border border-blue-400 rounded p-10'>
@@ -45,7 +49,7 @@ or:
 </div>
 ```
 
-# You can also change the position of the tooltip depending on the device using Tailwind's responsive modifiers
+### You can also change the position of the tooltip depending on the device using Tailwind's responsive modifiers
 
 ```
 <p class='tooltip'>
