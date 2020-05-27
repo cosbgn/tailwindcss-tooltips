@@ -32,8 +32,7 @@ Very simple css only tooltips for Tailwind css. See the demo at https://jsfiddle
 ```
 # Use the tooltips
 
-
-### Use the tooltips like this:
+To use the tooltip simply wrap a `tooltip-text` element inside a `tooltip` element like this:
 
 ```
 <p class='tooltip'>
@@ -51,13 +50,11 @@ Hover me <span class='tooltip-text bg-blue-200 p-3 -mt-6 -ml-6 rounded'>Look at 
 
 ### You can also change the position of the tooltip depending on the device using Tailwind's responsive modifiers
 
+For example: `-mt-1 lg:-mt-8`
+
 ```
 <p class='tooltip'>
 <span class='tooltip-text bg-blue-200 p-3 -mt-1 lg:-mt-8 rounded'>Look at this!</span>
 Hover me
 </p>
-```
-
-```
--mt-1 lg:-mt-8
 ```
