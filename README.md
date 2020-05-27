@@ -16,6 +16,19 @@ Very simple css only tooltips for Tailwind css. See the demo at https://jsfiddle
 }
 ```
 
+# If you prefer to use the @apply directive (from Tailwind CSS) you can instead add in your css file:
+
+```
+.tooltip .tooltip-text {
+  @apply invisible p-4 absolute z-50 inline-block ml-4 text-sm w-1/2 rounded-lg bg-gray-700 text-white;
+}
+
+.tooltip:hover .tooltip-text {
+  @apply visible;
+}
+
+```
+
 # Use the tooltips like this:
 
 ```
