@@ -3,7 +3,7 @@ Very simple css only tooltips for Tailwind css. See the demo at https://jsfiddle
 
 # Edit your CSS:
 
-### Add in your css file the following:
+Add in your css file the following:
 
 ```
 .tooltip .tooltip-text {
@@ -18,7 +18,7 @@ Very simple css only tooltips for Tailwind css. See the demo at https://jsfiddle
 }
 ```
 
-### If you prefer to use the @apply directive (from Tailwind CSS) you can instead add in your css file:
+If you prefer to use the @apply directive (from Tailwind CSS) you can instead add in your css file:
 
 ```
 .tooltip .tooltip-text {
@@ -39,7 +39,7 @@ To use the tooltip simply wrap a `tooltip-text` element inside a `tooltip` eleme
 Hover me <span class='tooltip-text bg-blue-200 p-3 -mt-6 -ml-6 rounded'>Look at this!</span>
 </p>
 ```
-### or:
+or:
 
 ```
 <div class='tooltip m-10 border border-blue-400 rounded p-10'>
