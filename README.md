@@ -3,7 +3,7 @@ Very simple css only tooltips for Tailwind css. See the demo at https://jsfiddle
 
 ## Sponsor
 If you are building an admin dashboard or an internal tool check [Zero.sh](https://zero.sh)
-Entirely built with Tailwind!
+(built with Tailwind!)
 
 # Edit your CSS:
 
