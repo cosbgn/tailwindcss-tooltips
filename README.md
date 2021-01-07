@@ -1,8 +1,8 @@
 # tailwindcss-tooltips
 Very simple css only tooltips for Tailwind css. See the demo at https://jsfiddle.net/xjnw5vdz/1/
 
-## Sponsor
-If you are building an admin dashboard or an internal tool check [Zero.sh](https://zero.sh)
+### Sponsor
+> If you are building an admin dashboard or an internal tool check [Zero.sh](https://zero.sh)
 (built with Tailwind!)
 
 # Edit your CSS:
