@@ -23,8 +23,6 @@ It's reccomended to add at least `bg-white` to avoid that the tooltip text shows
 
 If you can't use `@apply` you can add this CSS instead:
 
-Also in this case in the `.tooltip` class you can add some default padding, text color, background color, etc  like `background:#fff;`
-
 ```
 .tooltip{
   visibility: hidden;
@@ -35,6 +33,8 @@ Also in this case in the `.tooltip` class you can add some default padding, text
   z-index: 100;
 }
 ```
+Also in this case in the `.tooltip` class you can add some default padding, text color, background color, etc  like `background:#fff;`
+
 
 # Use the tooltips
 
