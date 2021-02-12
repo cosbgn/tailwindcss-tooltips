@@ -6,9 +6,7 @@ Very simple css only tooltips for Tailwind css. See the demo at https://play.tai
 (built with Tailwind!)
 
 # Edit your Tailwind.css file:
-
-In the `.tooltip` class you can add some defult syle like `p-1 rounded border border-gray-200 bg-gray-100 shadow-lg ml-4 text-sm`
-It's reccomended to add at least `bg-white` to avoid that the tooltip text shows over the partent text.
+Add the followind code on your Tailwind.css file:
 
 ```
 .tooltip {
@@ -20,11 +18,13 @@ It's reccomended to add at least `bg-white` to avoid that the tooltip text shows
 }
 
 ```
+In the `.tooltip` class you can add some defult syle like `p-1 rounded border border-gray-200 bg-gray-100 shadow-lg ml-4 text-sm`
+It's reccomended to add at least `bg-white` to avoid that the tooltip text shows over the partent text.
 
-## If you can't use `@apply` you can add this CSS instead:
+If you can't use `@apply` you can add this CSS instead:
 
-In the `.tooltip` class you can add some default padding, text color, background color, etc 
-Demo without APPLY: https://jsfiddle.net/jvb52qh3/
+Also in this case in the `.tooltip` class you can add some default padding, text color, background color, etc  like `background:#fff;`
+
 ```
 .tooltip{
   visibility: hidden;
@@ -42,7 +42,7 @@ To use the tooltip simply wrap a `tooltip` element inside a `has-tooltip` elemen
 
 ```
 <p class='has-tooltip'>
-Hover me <span class='tooltip'>Look at this!</span>
+  Hover me <span class='tooltip'>Look at this!</span>
 </p>
 ```
 You can edit the tooltip position & style using Tailwind CSS classes like so:
