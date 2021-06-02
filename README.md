@@ -2,7 +2,9 @@
 Very simple css only tooltips for Tailwind css. See the demo at https://play.tailwindcss.com/2eBipAu8Bt
 
 # Sponsor
-> If you store data in Google Sheets check out [Chartmat.com](https://chartmat.com?utm_source=github&utm_medium=tailwind-tooltips) - It's a small tool to build dashboards and internal apps on top of Google Sheets (built with Tailwind!) - The first few users can get a 70% discount
+[![Chartmat](https://github.com/cosbgn/tailwindcss-tooltips/blob/master/chartmat.png?raw=true)](https://chartmat.com?utm_source=github&utm_medium=tailwind-tooltips)
+
+If you store data in Google Sheets check out [Chartmat.com](https://chartmat.com?utm_source=github&utm_medium=tailwind-tooltips) - It's a small tool to build dashboards and internal apps on top of Google Sheets (built with Tailwind!) - The first few users can get a 70% discount
 
 # Edit your Tailwind.css file:
 Add the followind code on your Tailwind.css file:
